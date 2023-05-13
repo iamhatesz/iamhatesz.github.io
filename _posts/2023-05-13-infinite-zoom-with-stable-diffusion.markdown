@@ -13,8 +13,6 @@ Fortunately, with the recent advancements in Generative AI,
 especially in the computer vision domain, we can generate them on our own,
 with just a few lines of code.
 
-* Example
-
 *Disclaimer: in this post, I won't explain the details of the Stable Diffusion itself.
 There's already a lot of great content in the Internet to start with.
 Personally, I can recommend the fast.ai course[^1] or the original paper[^2].*
