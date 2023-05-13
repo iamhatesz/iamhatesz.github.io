@@ -123,7 +123,7 @@ Podnieśmy poprzeczkę i zaimplementujmy monoid dla filtru Blooma. Filtr Blooma[
 
 Struktura ta składa się z $$ {m} $$-bitowej tablicy, oraz $$ k $$ funkcji haszujących o zbiorze wartości $$ [0;{m}) $$ każda. Dodanie elementu polega na obliczeniu $$ {k} $$ wartości funkcji haszujących tego elementu i na ich podstawie ustawieniu flag w tablicy bitowej.
 
-![Filtr Blooma](https://i.imgur.com/VEh4tsA.png "Źródło: https://pl.wikipedia.org/wiki/Filtr_Blooma"){: .center }
+![Filtr Blooma](/assets/images/posts/monoid/filtr_blooma.png "Źródło: https://pl.wikipedia.org/wiki/Filtr_Blooma"){: .center }
 
 Sprawdzenie elementu również sprowadza się do policzenia tych samych haszy co przy wstawianiu elementu. Następnie sprawdzamy wartości wyznaczonych pól w tablicy. Jeżeli przynajmniej jedno pole ma wartość równą zero, to możemy być pewni, że element ten nie należy do zbioru. Inaczej sytuacja ma się wtedy, kiedy wszystkie wyznaczone pola są jedynkami. Mówimy wtedy, że element ten należy do zbioru z pewnym prawdopodobieństwem. Prawdopodobieństwo pomyłki (ang. *false positive*) zależy od rozmiaru tablicy bitowej oraz ilości (i jakości) funkcji mieszających. Wynosi ono:
 
