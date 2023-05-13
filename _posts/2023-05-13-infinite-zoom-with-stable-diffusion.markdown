@@ -289,6 +289,12 @@ Here are more examples:
     <video autoplay muted loop class="w256">
         <source src="/assets/images/posts/infinite-zoom/example_2.webm" type="video/webm">
     </video>
+    <video autoplay muted loop class="w256">
+        <source src="/assets/images/posts/infinite-zoom/example_3.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop class="w256">
+        <source src="/assets/images/posts/infinite-zoom/example_4.mp4" type="video/mp4">
+    </video>
 </div>
 
 You can find the complete code, along with a Gradio app, [here](https://github.com/iamhatesz/fun-with-ml/tree/main/stable_diffusion/infinite_zoom).

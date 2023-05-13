@@ -23,9 +23,11 @@ img + em, video + em {
 }
 
 .gallery {
-    text-align: center;;
+    text-align: center;
 }
 
 .gallery img, .gallery video {
     display: inline-block;
+    padding: 0.5em;
+    margin: 0;
 }
