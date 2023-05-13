@@ -3,6 +3,19 @@ img, video {
     margin: 0 auto 1em auto;
 }
 
+video {
+    width: 100%;
+    max-height: 100%;
+}
+
+video.w256 {
+    max-width: 256px;
+}
+
+video.w512 {
+    max-width: 512px;
+}
+
 img + em, video + em {
     display: block;
     margin: -1em auto 0 auto;

@@ -219,7 +219,7 @@ Let's repeat the process a few times, remembering to scale the image back to ori
 
 Looks good! We can turn it into an animation right away, but it won't be smooth:
 
-<video autoplay muted loop width="512" height="512">
+<video autoplay muted loop class="w256">
     <source src="/assets/images/posts/infinite-zoom/initial_animation.webm" type="video/webm">
 </video>
 
@@ -270,7 +270,7 @@ def interp(
 
 And here's the animation with 16 steps of interpolation between frames:
 
-<video autoplay muted loop width="512" height="512">
+<video autoplay muted loop class="w256">
     <source src="/assets/images/posts/infinite-zoom/animation.webm" type="video/webm">
 </video>
 
@@ -283,10 +283,10 @@ Nevertheless, the effect is great.
 Here are more examples:
 
 <div class="gallery">
-    <video autoplay muted loop width="256" height="256">
+    <video autoplay muted loop class="w256">
         <source src="/assets/images/posts/infinite-zoom/example_1.mp4" type="video/mp4">
     </video>
-    <video autoplay muted loop width="256" height="256">
+    <video autoplay muted loop class="w256">
         <source src="/assets/images/posts/infinite-zoom/example_2.webm" type="video/webm">
     </video>
 </div>
