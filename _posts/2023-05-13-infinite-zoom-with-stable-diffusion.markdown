@@ -4,7 +4,7 @@ title:  "Infinite zoom with Stable Diffusion"
 description: "Infinite zoom animation using inpainting and Stable Diffusion."
 date:   2023-05-13 17:13:20 +0200
 tags: ["python", "machine learning", "stable diffusion"]
-image: "/assets/images/posts/infinite-zoom/initial.png"
+image: "/assets/images/posts/infinite-zoom/thumbnail.png"
 ---
 
 Some of you might have already seen these great animations, where
