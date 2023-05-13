@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: wrona.me - Yet Another Dev Blog
+title: wrona.me
 email: tomasz@wrona.me
 description: >- # this means to ignore newlines until "baseurl:"
   A highly correlated sequence of characters about Python, Web and AI.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://wrona.me/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iamhatesz
 github_username:  iamhatesz
 permalink: /:year/:month/:day/:title.html
@@ -32,6 +32,7 @@ permalink: /:year/:month/:day/:title.html
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
