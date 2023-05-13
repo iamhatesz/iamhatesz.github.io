@@ -1,0 +1,18 @@
+img, video {
+    display: block;
+    margin: 0 auto 1em auto;
+}
+
+img + em, video + em {
+    display: block;
+    margin: -1em auto 0 auto;
+    text-align: center;
+}
+
+.gallery {
+    text-align: center;;
+}
+
+.gallery img, .gallery video {
+    display: inline-block;
+}
