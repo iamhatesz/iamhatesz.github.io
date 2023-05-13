@@ -6,7 +6,7 @@ date:   2022-11-04 13:15:00 +0200
 tags: ["python", "selenium", "webdriver", "bidi", "talk"]
 ---
 
-You can find the code and examples [here](https://github.com/iamhatesz/pyconpl-2022).
+You can find the code and examples from the talk I gave at PyConPL 2022 [here](https://github.com/iamhatesz/pyconpl-2022).
 
 Unfortunately, the video of my talk is still missing on the organizers' YouTube channel.
 
